@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Tizen</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>IPTV Tizen</h1>
+        <div id="login">
+            <input type="text" id="serverUrl" placeholder="Xtream URL" />
+            <input type="text" id="username" placeholder="Kullanıcı Adı" />
+            <input type="password" id="password" placeholder="Şifre" />
+            <button id="loginBtn">Bağlan</button>
+        </div>
+        <div id="content" class="hidden">
+            <h2>Kanallar</h2>
+            <ul id="channelList"></ul>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
